@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id = "@+id/RHE"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:padding="1dp">
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/blankLabel"
+             android:text="	  "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/systolic"
+             android:text="R"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/diastolic"
+             android:text="H"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/pulse"
+             android:text="E"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content" >
+         <TextView
+             android:id="@+id/mean"
+             android:text="Mean"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/meanSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/meanDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/meanPulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content" >
+         <TextView
+             android:id="@+id/median"
+             android:text="Median"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/medSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/medDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/medPulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/mode"
+             android:text="Mode"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/modeSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/modeDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/modePulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     
+     <TableRow android:layout_height="wrap_content" >
+         <TextView
+             android:id="@+id/range"
+             android:text="Range"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/rangeSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/rangeDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/rangePulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     
+     <TableRow android:layout_height="wrap_content" >
+         <TextView
+             android:id="@+id/variation"
+             android:text="Variation"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/variantSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/variantDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/variantPulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/Standard_Deviance"
+             android:text="Standard Deviance   "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/standardSys"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/standardDias"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/standardPulse"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+</TableLayout>
+</LinearLayout>

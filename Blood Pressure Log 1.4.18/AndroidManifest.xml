@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cs.ecl.w12.project.grybasli"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <activity android:name="cs.ecl.w12.project.grybasli.TabBarExample"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FirstTab" />
+	<activity android:name=".bpsOverviewActivity" />
+	<activity android:name=".SecondTab" />
+	<activity android:name=".AnalysisActivity" />
+	<activity android:name=".PickDateTimeActivity" />
+	
+		        <provider
+            android:name=".MyContentProvider"
+            android:multiprocess="true"
+            android:authorities="cs.ecl.w12.project.grybasli" >
+        </provider>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="16" />
+
+</manifest> 

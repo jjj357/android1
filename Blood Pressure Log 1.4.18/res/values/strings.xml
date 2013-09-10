@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">Blood Pressure Log 1.4.18</string>
+    <string name="title_section3">Analysis</string>
+    <string name="title_section2">History</string>
+    <string name="title_section1">New</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_bp">new_bp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Blood Pressure Log 1.4.18</string>
+    <string name="title_activity_history">Blood Pressure Log 1.4.18</string>
+    <string name="title_activity_analysis">Blood Pressure Log 1.4.18</string>
+    <string name="button_Submit">Submit</string>
+    <string name="hint_systolic">Systolic</string>
+    <string name="hint_diastolic">Diastolic</string>
+    <string name="hint_pulse">Pulse</string>
+    <string name="hint_weight">Weight</string>
+    <string name="hint_comment">Entry comment</string>
+    <string name="choose_date">Date</string>
+    <string name="checkbox_arrhythmia">Arrhythmia</string>
+    <string name="checkbox_analysis">Analysis</string>
+    <string name="button_save">Save</string>
+    
+     
+    
+      <string name="hello">Hello World, Todo!</string>
+
+  <string name="no_todos">Currently there are no Todo items maintained</string>
+  <string name="menu_insert">Add Item</string>
+  <string name="menu_delete">Delete Todo</string>
+  <string name="todo_summary">Summary</string>
+  <string name="todo_description">Delete Todo</string>
+  <string name="todo_edit_summary">Summary</string>
+  <string name="todo_edit_description">Description</string>
+  <string name="todo_edit_confirm">Confirm</string>
+    
+        <string-array name="priorities">
+        <item>Urgent</item>
+        <item>Reminder</item>
+    </string-array>
+  
+    
+    
+    <string-array name="bp_site">
+        <item>Left arm</item>
+        <item>Right arm</item>
+        <item>Left wrist</item>
+        <item>Right wrist</item>
+        <item>Left leg</item>
+        <item>Right leg</item>
+    </string-array>
+    
+    <string-array name="bp_position">
+        <item>Seated</item>
+        <item>Upright</item>
+        <item>Horizontal</item>
+    </string-array>
+    
+        
+
+</resources>
